@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:gateafricapp/constants/assets.dart';
 import 'package:gateafricapp/constants/gateAfrica_colors.dart';
 import 'package:gateafricapp/constants/gateAfrica_texts.dart';
+import 'package:gateafricapp/screens/advanceddetail_screen.dart';
 import 'package:gateafricapp/screens/gateafrica_widget.dart';
 import 'package:gateafricapp/screens/history_screens/detail_screen.dart';
 import 'package:gateafricapp/screens/history_screens/generate_report.dart';
+import 'package:gateafricapp/screens/otpverification_screen.dart';
 import 'package:intl/intl.dart';
 
 class Options extends StatelessWidget {
@@ -50,6 +52,7 @@ class Options extends StatelessWidget {
   }
 }
 
+// sortBy content
 class SortBy extends StatelessWidget {
   const SortBy({super.key});
   void showBottomSheet(BuildContext context, content) {
@@ -105,6 +108,7 @@ class SortBy extends StatelessWidget {
   }
 }
 
+// Sort By status
 class StatusSort extends StatefulWidget {
   const StatusSort({super.key});
 
@@ -152,6 +156,7 @@ class _StatusSortState extends State<StatusSort> {
   }
 }
 
+// items in sort by status
 class StatusElement extends StatefulWidget {
   const StatusElement({
     super.key,
@@ -263,7 +268,6 @@ class _DateSortState extends State<DateSort> {
                 ),
               ),
               child: CalendarDatePicker(
-               
                 firstDate: DateTime(2000),
                 initialDate: selectedDate,
 
@@ -279,7 +283,7 @@ class _DateSortState extends State<DateSort> {
             SizedBox(height: 21),
             Button(
               texts: GateafricaTexts.choosedate,
-              route: GeneratereportScreen(),
+              route: OtpverificationScreen(),
             ),
           ],
         ),

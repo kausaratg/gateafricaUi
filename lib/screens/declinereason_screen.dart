@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gateafricapp/constants/assets.dart';
-import 'package:gateafricapp/constants/gateAfrica_colors.dart';
 import 'package:gateafricapp/constants/gateAfrica_texts.dart';
-import 'package:gateafricapp/screens/accessheld_screen.dart';
 import 'package:gateafricapp/screens/gateafrica_widget.dart';
 import 'package:gateafricapp/screens/inviteactive_screen2.dart';
 

@@ -134,4 +134,6 @@ class GateafricaTexts {
   static String apply = "Apply";
   static String dates = "Date: ";
   static String choosedate = "Choose Date";
+  static String enterpin = "Enter Pin to Continue";
+  static String sensitive = "Sensitive: Enter Pin (Only for estate admin).";
 }

@@ -4,7 +4,6 @@ import 'package:gateafricapp/constants/gateAfrica_colors.dart';
 import 'package:gateafricapp/constants/gateAfrica_texts.dart';
 import 'package:gateafricapp/screens/gateafrica_widget.dart';
 import 'package:gateafricapp/screens/holdreason_screen.dart';
-import 'package:gateafricapp/screens/invite_active.dart';
 
 class AccessgrantedScreen extends StatefulWidget {
   const AccessgrantedScreen({super.key});

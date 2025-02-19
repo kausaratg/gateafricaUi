@@ -3,8 +3,7 @@ import 'package:gateafricapp/constants/assets.dart';
 import 'package:gateafricapp/constants/gateAfrica_colors.dart';
 import 'package:gateafricapp/constants/gateAfrica_texts.dart';
 import 'package:gateafricapp/models/gateafrica_model.dart';
-import 'package:gateafricapp/screens/gateafrica_widget.dart';
-import 'package:gateafricapp/screens/history_screens/detail_screen.dart';
+import 'package:gateafricapp/screens/advanceddetail_screen.dart';
 import 'package:gateafricapp/screens/history_screens/modalsheet_content.dart';
 
 class GeneratereportScreen extends StatefulWidget {
@@ -36,7 +35,17 @@ class _GeneratereportScreenState extends State<GeneratereportScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              IconButton(onPressed: () {}, icon: Image.asset(backicon)),
+              IconButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => AdvanceddetailScreen(),
+                    ),
+                  );
+                },
+                icon: Image.asset(backicon),
+              ),
               Center(
                 child: Text(
                   GateafricaTexts.generatereport,
@@ -98,9 +107,7 @@ class _GeneratereportScreenState extends State<GeneratereportScreen> {
                   ),
                   // view all icon
                   GestureDetector(
-                    onTap: () {
-                     
-                    },
+                    onTap: () {},
                     child: Text(
                       GateafricaTexts.viewall,
                       style: TextStyle(

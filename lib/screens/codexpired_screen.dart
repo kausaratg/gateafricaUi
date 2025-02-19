@@ -3,7 +3,7 @@ import 'package:gateafricapp/constants/assets.dart';
 import 'package:gateafricapp/constants/gateAfrica_colors.dart';
 import 'package:gateafricapp/constants/gateAfrica_texts.dart';
 import 'package:gateafricapp/screens/gateafrica_widget.dart';
-import 'package:gateafricapp/screens/invite_active.dart';
+import 'package:gateafricapp/screens/inviteactive_screen.dart';
 
 class CodeExpired extends StatelessWidget {
   const CodeExpired({super.key});
