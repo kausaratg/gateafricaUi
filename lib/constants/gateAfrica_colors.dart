@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+
+const Color primarycolor = Color(0xffFFFFFF);
+const Color onboardingcolor = Color(0xffFFFDF5);
+const Color greencolor = Color(0xff008D57);
+const Color greycolor = Color(0xff64748B);
+const Color lightgreycolor = Color(0xff98A2B3);
+const Color fillcolor = Color(0xffF8F9FD);
+
+const Color buttoncolor = Color(0xffD1D1D1);
+const Color textscolor = Color(0xff0F172A);
+const Color smalltextcolor = Color(0xff64748B);
+const Color bordercolor = Color(0xffE2E8F0);
+const Color shorttextcolor = Color(0xffA5A5A5);
+const Color greenbordercolor = Color(0xff1DCE5C);
+const Color blackcolor = Color(0xff0C0000);
+const Color boxbordercolor = Color(0xffDADADA);
+const Color bottomtextcolor = Color(0xffACAFB5);
+const Color textgreycolor = Color(0xff807D7D);
+const Color bluecolor = Color(0xff0048C6);
+const Color lightbluecolor = Color(0xffEDFCFF);
+const Color greytextcolor = Color(0xff83899B);
+const Color blacktextcolor = Color(0xff171717);
+const Color containerbordercolor = Color(0xff667085);
+const Color lightgreencolor = Color(0xffEDFFF3);
+const Color deepgreencolor = Color(0xff00533E);
+const Color hinttextcolor = Color(0xff94A3B8);
+const Color lightyellowcolor = Color(0xffFFF7E1);
+const Color deepyellowcolor = Color(0xffFBBC05);
+const Color redcolor = Color(0xffEA4335);
+const Color darkcolor = Color(0xff101317);
+const Color deepbluecolor = Color(0xff0F172A);
+const Color skybluecolor = Color(0xff007AFF);
+const Color cbluecolor = Color(0xff006DFF);
+const Color sortcolor = Color(0xff656565);
+const Color lightredcolor = Color(0xffFFEDED);
+const Color deepredcolor = Color(0xffD6121C);
+const Color lightyellowcontainer = Color(0xffFFF6D8);
+const Color deepyellowcontainer = Color(0xffF2A000);
+const Color browngreycolor = Color(0xffC2C0C0);
+
+// const Color deepredcolor = Color(0xffD6121C);
